@@ -1,6 +1,11 @@
 import React from 'react'
 
-function FilmDetail ({film}) {
+function FilmDetail ({film, addToWatchlist}) {
+
+    const handleWatchlistClick = () => {
+        addToWatchlist(film);
+    }
+
     return(
         <div class="filmdetail">
             <h1 class="filmtitle">{film.Title}</h1>
@@ -9,7 +14,7 @@ function FilmDetail ({film}) {
             <p>Starring: {film.Actors}</p>
             <p>Genre: {film.Genre}</p>
             <p>Plot Summary: {film.Plot}</p>
-            <button>Add to Watchlist</button>
+            <button onClick={handleWatchlistClick}>Add to Watchlist</button>
         </div>
     )
 }

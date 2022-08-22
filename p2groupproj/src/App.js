@@ -5,9 +5,15 @@ import About from "./components/About"
 import NavBar from "./components/NavBar"
 import FilmWatchMgr from "./components/FilmWatchMgr"
 import Search from './components/Search';
+import WatchList from './components/WatchList';
 
 
 function App() {
+  const [watchlist, setWatchlist] = useState([])
+
+  const addToWatchlist = (film) => {
+    setWatchlist([...watchlist, film])
+  }
 
   console.log(About, NavBar, FilmWatchMgr)
   // Search API by Title
@@ -16,7 +22,8 @@ function App() {
   return (
     <div className="App">
       <header><h1>Dan and Jackson's Film Watchlist</h1></header>
-      <Search />
+      <Search addToWatchlist={addToWatchlist}/>
+      <WatchList watchlist={watchlist}/>
     </div>
   )
 }

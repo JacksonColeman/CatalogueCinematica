@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import FilmDetail from './FilmDetail';
 
-function Search () {
+function Search ({addToWatchlist}) {
     const [filmSearch, setFilmSearch] = useState("");
     const [currentFilm, setCurrentFilm] = useState([]);
 
@@ -30,7 +30,7 @@ function Search () {
                 <input type='text' placeholder="Search..." name="filmsearch" value={filmSearch} onChange={handleFilmSearch}></input>
                 <button type="submit" onClick={handleFilmSearchSubmit}>Search</button>
             </form>
-            {currentFilm.Genre ? <FilmDetail film={currentFilm}/> : <p>Search for a film title to get information about the film and add it to your watchlist!</p>}
+            {currentFilm.Genre ? <FilmDetail film={currentFilm} addToWatchlist={addToWatchlist}/> : <p>Search for a film title to get information about the film and add it to your watchlist!</p>}
             
         </div>
     )
