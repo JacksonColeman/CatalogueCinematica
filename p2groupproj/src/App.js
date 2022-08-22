@@ -1,12 +1,18 @@
 import logo from './logo.svg';
 import React, {useEffect, useState} from 'react';
 import './App.css';
+import About from "./components/About"
+import NavBar from "./components/NavBar"
+import FilmWatchMgr from "./components/FilmWatchMgr"
+
 
 function App() {
   const [filmSearch, setFilmSearch] = useState("");
   const [currentFilm, setCurrentFilm] = useState([]);
   const [posterUrl, setPosterUrl] = useState("");
 
+
+  console.log(About, NavBar, FilmWatchMgr)
   // Search API by Title
   //https://www.omdbapi.com/?t={name}&apikey=ecf3f0c5
 
@@ -30,6 +36,7 @@ function App() {
   }
   
   return (
+  
     <div className="App">
       <form>
         <input type='text' placeholder="Search..." name="filmsearch" value={filmSearch} onChange={handleFilmSearch}></input>
