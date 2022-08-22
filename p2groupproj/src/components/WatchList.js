@@ -2,10 +2,11 @@ import React from 'react'
 import FilmDetail from "./FilmDetail"
 
 
-function WatchList () {
+function WatchList ({watchlist}) {
     return(
-        <div>
-            <FilmDetail />
+        <div class="watchlist">
+            <h2>Your Watchlist:</h2>
+            {watchlist.map(film => <p>{film.Title}</p>)}
         </div>
     )
 }
