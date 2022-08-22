@@ -15,6 +15,7 @@ function App() {
 
   return (
     <div className="App">
+      <header><h1>Dan and Jackson's Film Watchlist</h1></header>
       <Search />
     </div>
   )

@@ -30,7 +30,8 @@ function Search () {
                 <input type='text' placeholder="Search..." name="filmsearch" value={filmSearch} onChange={handleFilmSearch}></input>
                 <button type="submit" onClick={handleFilmSearchSubmit}>Search</button>
             </form>
-            <FilmDetail film={currentFilm}/>
+            {currentFilm.Genre ? <FilmDetail film={currentFilm}/> : <p>Search for a film title to get information about the film and add it to your watchlist!</p>}
+            
         </div>
     )
 }
