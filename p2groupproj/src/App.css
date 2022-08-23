@@ -6,3 +6,36 @@
     margin-left: 5%;
     inline-size: 350px;
 }
+
+.navbar {
+    background-color: #ffcccb;
+}
+
+.navbar a {
+    display: inline-block;
+    margin: 1rem 2rem;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: rgb(25, 146, 152);
+    border-bottom: 2px solid rgb(25, 146, 152);
+    transition: 0.1s;
+  }
+
+.navbar a:hover,
+.navbar a:active {
+    color: tomato;
+    border-bottom: 2px solid tomato;
+  }
+
+.navbar a.active {
+    background-color: white;
+    color: black;
+  } 
+
+  header {
+    height: 15vh; /* Magic here */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+  
