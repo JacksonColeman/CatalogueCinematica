@@ -18,22 +18,35 @@ function App() {
     .then(setWatchlist)
   },[])
 
-
-  const addToWatchlist = (film) => {
-    setWatchlist([...watchlist, film])
-  }
-
-  //  const addToWatchlist = (newfilm) => {
-  //   fetch("http://localhost:8004/films", {
-  //     method: "POST",
-  //     headers: {"Content-Type": "application/json"},
-  //     body: JSON.stringify(newfilm)
-  //   })
-  //     .then(res => res.json())
-  //   setWatchlist([...watchlist, newfilm])
-  // }
-
+  const checkDuplicate = (addedFilm) => {
+    const isDuplicate = watchlist.some(film => {
+      if (film.Title === addedFilm.Title) {
+        return true;
+      }
+      return false;
+    });
+      return isDuplicate
+    }
   
+
+  const addToWatchlist = (addedFilm) => {
+   if (checkDuplicate(addedFilm)) {
+    return null
+   } else {
+    
+        fetch("http://localhost:8004/films",{
+        method: 'POST',
+        headers: {
+          "Content-Type": 'application/json',
+        },
+        body: JSON.stringify(addedFilm),
+      })    
+        .then(resp => resp.json())
+        .then(setWatchlist([...watchlist, addedFilm]))
+      }
+    }
+
+
 
   const removeFromWatchlist = (deletedFilm) => {
     setWatchlist(watchlist => watchlist.filter(film => {
