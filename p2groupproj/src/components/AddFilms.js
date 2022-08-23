@@ -8,7 +8,7 @@ function AddFilms ({addToWatchlist}) {
     return(
         <div>
             {/* <WatchList /> */}
-            <Search addToWatchList={addToWatchlist}/>
+            <Search addToWatchlist={addToWatchlist}/>
             <NewFilmForm />
 
         </div>
