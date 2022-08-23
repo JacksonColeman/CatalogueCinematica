@@ -11,6 +11,13 @@ function App() {
   const [watchlist, setWatchlist] = useState([])
   const [page, setPage] = useState("/")
 
+  // get watchlist data hosted on local server
+  useEffect(() => {
+    fetch("http://localhost:8004/films")
+    .then(res => res.json())
+    .then(setWatchlist)
+  },[])
+
 
   const addToWatchlist = (film) => {
     setWatchlist([...watchlist, film])

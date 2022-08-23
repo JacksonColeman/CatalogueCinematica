@@ -3,7 +3,15 @@ import React from 'react'
 function FilmDetail ({film, addToWatchlist}) {
 
     const handleWatchlistClick = () => {
-        addToWatchlist(film);
+        fetch("http://localhost:8004/films",{
+            method: 'POST',
+            headers: {
+                "Content-Type": 'application/json',
+            },
+            body: JSON.stringify(film),
+        })
+        .then(resp => resp.json())
+        .then(addToWatchlist(film))
     }
 
     return(
