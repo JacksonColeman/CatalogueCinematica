@@ -23,6 +23,18 @@ function App() {
     setWatchlist([...watchlist, film])
   }
 
+  //  const addToWatchlist = (newfilm) => {
+  //   fetch("http://localhost:8004/films", {
+  //     method: "POST",
+  //     headers: {"Content-Type": "application/json"},
+  //     body: JSON.stringify(newfilm)
+  //   })
+  //     .then(res => res.json())
+  //   setWatchlist([...watchlist, newfilm])
+  // }
+
+  
+
   const removeFromWatchlist = (deletedFilm) => {
     setWatchlist(watchlist => watchlist.filter(film => {
       return film.id != deletedFilm.id;
