@@ -23,6 +23,12 @@ function App() {
     setWatchlist([...watchlist, film])
   }
 
+  const removeFromWatchlist = (deletedFilm) => {
+    setWatchlist(watchlist => watchlist.filter(film => {
+      return film.id != deletedFilm.id;
+    }))
+  }
+
   // console.log(Home, NavBar, AddFilms)
   // Search API by Title
   //https://www.omdbapi.com/?t={name}&apikey=ecf3f0c5
@@ -33,7 +39,7 @@ function App() {
       <NavBar onChangePage={setPage} />
       <Switch>
         <Route path="/yourfilmlist">
-          <WatchList watchlist={watchlist}/>
+          <WatchList watchlist={watchlist} removeFromWatchlist={removeFromWatchlist}/>
         </Route>
         <Route path="/addfilms">
           <AddFilms addToWatchlist={addToWatchlist}/>
