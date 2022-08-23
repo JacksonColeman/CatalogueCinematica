@@ -7,8 +7,8 @@ function FilmDetail ({film, addToWatchlist}) {
     }
 
     return(
-        <div class="filmdetail">
-            <h1 class="filmtitle">{film.Title}</h1>
+        <div className="filmdetail">
+            <h1 className="filmtitle">{film.Title}</h1>
             <img src={film.Poster} alt="poster"></img> 
             <p>{film.Year} • Directed by {film.Director} • {film.Runtime}</p>
             <p>Starring: {film.Actors}</p>

@@ -12,8 +12,4 @@ function NavBar () {
     )
 }
 
-{/* <NavLink exact to="/">Home</NavLink>
-<NavLink to="/about">About</NavLink>
-<NavLink to="/projects">Projects</NavLink> */}
-
 export default NavBar

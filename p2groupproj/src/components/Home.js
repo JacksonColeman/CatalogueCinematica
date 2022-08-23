@@ -2,7 +2,9 @@ import React from 'react'
 
 function Home () {
     return(
-        <div></div>
+        <div>
+            <p>This Project is to Track Films You Want to Watch</p>
+        </div>
     )
 }
 
