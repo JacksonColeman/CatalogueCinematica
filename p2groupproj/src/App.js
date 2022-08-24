@@ -60,7 +60,7 @@ function App() {
 
   return (
     <div className="App">
-      <header><h1>Dan and Jackson's Film Watchlist</h1></header>
+      <header><h1>Catalogue Cinematic: Track Your Films</h1></header>
       <NavBar onChangePage={setPage} />
       <Switch>
         <Route path="/yourfilmlist">

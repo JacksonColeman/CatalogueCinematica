@@ -1,17 +1,19 @@
 * {
-   background-color: #ffcccb;
+   background-color:  #DAF0F0;
 }
 
-.filmdetail {
-    margin-left: 5%;
-    inline-size: 350px;
-}
+
+
+
 
 /* navbar */
 .navbar {
-    background-color: #ffcccb;
+    background-color: #DAF0F0;
+    margin-left: 20%;
 
 }
+
+/* #ffcccb; */
 
 .navbar a {
     display: inline-block;
@@ -21,7 +23,7 @@
     color: rgb(25, 146, 152);
     border-bottom: 2px solid rgb(25, 146, 152);
     transition: 0.1s;
-    margin-right: 22%;
+    margin-right: 19%;
     flex-wrap: nowrap;
 
 
@@ -44,6 +46,10 @@
     justify-content: center;
     align-items: center;
  }
+
+ /* h1 {
+  
+ } */
   
 /* homepage images */
 
@@ -63,12 +69,71 @@
   flex-wrap: nowrap;
   padding: 0px;
   margin-right: 25%;
-
-
-
 }
 
 .home-pic {
   width: 100%;
   height: auto;
+}
+
+.homepage {
+  margin-left: 20%;
+}
+
+.description {
+  float: flex;
+}
+
+/* all films to list  */
+
+.filmdetail {
+  margin-left: -15%;
+  
+  position: relative; 
+  top:50px;
+
+  /* inline-size: 350px;  */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+
+  /* position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: 10; */
+}
+
+.grid-child-1 {
+margin-left: 10%;
+margin-right: 65%
+
+}
+
+.grid-child-2 {
+margin-right: 70%;
+margin-left: -30%
+
+}
+
+.search {
+background-color: #DAF0F0;
+margin-left: 45%;
+/* top:100px; */
+
+
+}
+
+form {
+  position: relative; 
+  top:25px;
+
+}
+
+.search-result {
+background-color: #DAF0F0;
+margin-left: 30%;
+position: relative; 
+top:25px;
+/* top:100px; */
+
 }
