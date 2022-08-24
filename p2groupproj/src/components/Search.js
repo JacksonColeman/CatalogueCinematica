@@ -22,17 +22,23 @@ function Search ({addToWatchlist}) {
         fetch(`https://www.omdbapi.com/?t=${urlifiedTitle}&apikey=ecf3f0c5`)
         .then(res => res.json())
         .then(setCurrentFilm)
+        setFilmSearch("")
       }
 
     return(
+      <div>
         <div className="search">
             <form>
                 <input type='text' placeholder="Search..." name="filmsearch" value={filmSearch} onChange={handleFilmSearch}></input>
                 <button type="submit" onClick={handleFilmSearchSubmit}>Search</button>
             </form>
-            {currentFilm.Genre ? <FilmDetail film={currentFilm} addToWatchlist={addToWatchlist}/> : <p>Search for a film title to get information about the film and add it to your watchlist!</p>}
-            
         </div>
+        <div className="search-result">
+        {currentFilm.Genre ? <FilmDetail film={currentFilm} addToWatchlist={addToWatchlist}/> : <p>Search for a film title to get information about the film and add it to your watchlist!</p>}
+        </div>
+        
+
+      </div>
     )
 }
 
