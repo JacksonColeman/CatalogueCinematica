@@ -1,5 +1,5 @@
 * {
-   background-color:#ffcccb;
+   background-color: #ffcccb;
 }
 
 .filmdetail {
@@ -7,8 +7,10 @@
     inline-size: 350px;
 }
 
+/* navbar */
 .navbar {
     background-color: #ffcccb;
+
 }
 
 .navbar a {
@@ -19,6 +21,10 @@
     color: rgb(25, 146, 152);
     border-bottom: 2px solid rgb(25, 146, 152);
     transition: 0.1s;
+    margin-right: 22%;
+    flex-wrap: nowrap;
+
+
   }
 
 .navbar a:hover,
@@ -33,9 +39,36 @@
   } 
 
   header {
-    height: 15vh; /* Magic here */
+    height: 15vh; 
     display: flex;
     justify-content: center;
     align-items: center;
  }
   
+/* homepage images */
+
+ .column {
+  float: left;
+  width: 15%;
+  padding: 0px;
+  flex-wrap: nowrap;
+
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  flex-wrap: nowrap;
+  padding: 0px;
+  margin-right: 25%;
+
+
+
+}
+
+.home-pic {
+  width: 100%;
+  height: auto;
+}
