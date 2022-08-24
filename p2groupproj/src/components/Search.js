@@ -22,6 +22,7 @@ function Search ({addToWatchlist}) {
         fetch(`https://www.omdbapi.com/?t=${urlifiedTitle}&apikey=ecf3f0c5`)
         .then(res => res.json())
         .then(setCurrentFilm)
+        setFilmSearch("")
       }
 
     return(
