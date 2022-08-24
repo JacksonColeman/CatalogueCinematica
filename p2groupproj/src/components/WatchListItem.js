@@ -1,6 +1,8 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 function WatchListItem ({film, removeFromWatchlist}) {
+    const [showDetails, setShowDetails] = useState(false);
+    const [isHovering, setIsHovering] = useState(false);
 
     const handleRemoveClick = () => {
         fetch(`http://localhost:8004/films/${film.id}`, {
@@ -9,11 +11,34 @@ function WatchListItem ({film, removeFromWatchlist}) {
         .then(removeFromWatchlist(film))
     }
 
+    const toggleShowDetails = () => {
+        setShowDetails(!showDetails)
+    }
+
+    const toggleIsHovering = () => {
+        setIsHovering(!isHovering);
+    }
+
     return(
-        <div className="watchlist item">
+        <div onMouseEnter={toggleIsHovering} onMouseLeave={toggleIsHovering} className="watchlist item">
             <img className="filmPoster" src={film.Poster} width="300px" height="460px" key="id"></img>
-            <h4>{film.Title}</h4>
-            <button onClick={handleRemoveClick}>Remove from Watchlist</button>
+            <h3>{film.Title}</h3>
+            {showDetails ?
+            <div className="watchlist-item-details">
+                <p>{film.Year} • Directed by {film.Director} • {film.Runtime}</p>
+                <p>Starring: {film.Actors}</p>
+                <p>Genre: {film.Genre}</p>
+                <p>Plot Summary: {film.Plot}</p>
+            </div> :
+                null
+            }
+            {isHovering ?
+            <div className="watchlist-buttons">
+                <button onClick={toggleShowDetails}>{showDetails ? "Hide Details" : "Show Details"}</button>
+                <button onClick={handleRemoveClick}>Remove from Watchlist</button> 
+            </div> :
+            null
+            }
         </div>
     )
 }

@@ -140,6 +140,7 @@ top:25px;
 
 /* stuff for watchlist page */
 .watchlist {
+  padding: 20px;
 }
 
 .cardlist {
@@ -150,8 +151,11 @@ top:25px;
 
 .watchlist.item {
   display : block;
+  text-align: center;
+  inline-size: 300px;
 }
 
-.filmPoster:hover {
-  transform: scale(1.2)
+.watchlist.item:hover{
+  transform: scale(1.02);
+  background-color: #9ed4d4;
 }
