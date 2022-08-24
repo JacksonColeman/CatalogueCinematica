@@ -137,3 +137,21 @@ top:25px;
 /* top:100px; */
 
 }
+
+/* stuff for watchlist page */
+.watchlist {
+}
+
+.cardlist {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.watchlist.item {
+  display : block;
+}
+
+.filmPoster:hover {
+  transform: scale(1.2)
+}

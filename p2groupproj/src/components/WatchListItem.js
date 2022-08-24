@@ -11,7 +11,7 @@ function WatchListItem ({film, removeFromWatchlist}) {
 
     return(
         <div className="watchlist item">
-            <img src={film.Poster} width="300px" height="460px" key="id"></img>
+            <img className="filmPoster" src={film.Poster} width="300px" height="460px" key="id"></img>
             <h4>{film.Title}</h4>
             <button onClick={handleRemoveClick}>Remove from Watchlist</button>
         </div>
