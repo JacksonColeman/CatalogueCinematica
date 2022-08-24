@@ -42,7 +42,7 @@ function App() {
         body: JSON.stringify(addedFilm),
       })    
         .then(resp => resp.json())
-        .then(setWatchlist([...watchlist, addedFilm]))
+        .then(newFilm => setWatchlist([...watchlist, newFilm]))
       }
     }
 
