@@ -6,7 +6,6 @@ import NavBar from "./components/NavBar"
 import AddFilms from "./components/AddFilms"
 import WatchList from './components/WatchList';
 
-
 function App() {
   const [watchlist, setWatchlist] = useState([])
   const [page, setPage] = useState("/")
@@ -27,7 +26,6 @@ function App() {
     });
       return isDuplicate
     }
-  
 
   const addToWatchlist = (addedFilm) => {
    if (checkDuplicate(addedFilm)) {
@@ -45,8 +43,6 @@ function App() {
         .then(newFilm => setWatchlist([...watchlist, newFilm]))
       }
     }
-
-
 
   const removeFromWatchlist = (deletedFilm) => {
     setWatchlist(watchlist => watchlist.filter(film => {
@@ -79,7 +75,6 @@ function App() {
     </div>
   )
 }
-
 
 export default App;
 

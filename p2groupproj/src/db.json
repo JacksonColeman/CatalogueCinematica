@@ -1,45 +1,201 @@
 {
   "films": [
     {
-      "Title": "Altered States",
-      "Year": "1980",
-      "Rated": "R",
-      "Released": "25 Dec 1980",
-      "Runtime": "102 min",
-      "Genre": "Horror, Sci-Fi, Thriller",
-      "Director": "Ken Russell",
-      "Writer": "Paddy Chayefsky",
-      "Actors": "William Hurt, Blair Brown, Bob Balaban",
-      "Plot": "A psycho-physiologist experiments with drugs and a sensory-deprivation tank and has visions he believes are genetic memories.",
-      "Language": "English, Spanish",
-      "Country": "United States",
-      "Awards": "Nominated for 2 Oscars. 1 win & 7 nominations total",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BZTdkOTU5NDYtZjk4NC00NDA0LTlkMDItODY3ZWU2Y2VkNzFjXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
+      "Title": "Tokyo Story",
+      "Year": "1953",
+      "Rated": "Not Rated",
+      "Released": "13 Mar 1972",
+      "Runtime": "136 min",
+      "Genre": "Drama",
+      "Director": "Yasujirô Ozu",
+      "Writer": "Kôgo Noda, Yasujirô Ozu",
+      "Actors": "Chishû Ryû, Chieko Higashiyama, Sô Yamamura",
+      "Plot": "An old couple visit their children and grandchildren in the city, but receive little attention.",
+      "Language": "Japanese, English",
+      "Country": "Japan",
+      "Awards": "3 wins",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYWQ4ZTRiODktNjAzZC00Nzg1LTk1YWQtNDFmNDI0NmZiNGIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
       "Ratings": [
         {
           "Source": "Internet Movie Database",
-          "Value": "6.8/10"
+          "Value": "8.2/10"
         },
         {
           "Source": "Rotten Tomatoes",
-          "Value": "85%"
-        },
-        {
-          "Source": "Metacritic",
-          "Value": "58/100"
+          "Value": "100%"
         }
       ],
-      "Metascore": "58",
-      "imdbRating": "6.8",
-      "imdbVotes": "35,413",
-      "imdbID": "tt0080360",
+      "Metascore": "N/A",
+      "imdbRating": "8.2",
+      "imdbVotes": "61,069",
+      "imdbID": "tt0046438",
       "Type": "movie",
-      "DVD": "15 Aug 2000",
-      "BoxOffice": "$19,853,892",
+      "DVD": "04 Nov 2003",
+      "BoxOffice": "N/A",
       "Production": "N/A",
       "Website": "N/A",
       "Response": "True",
       "id": 1
+    },
+    {
+      "Title": "The Birds",
+      "Year": "1963",
+      "Rated": "PG-13",
+      "Released": "29 Mar 1963",
+      "Runtime": "119 min",
+      "Genre": "Drama, Horror, Mystery",
+      "Director": "Alfred Hitchcock",
+      "Writer": "Daphne Du Maurier, Evan Hunter",
+      "Actors": "Rod Taylor, Tippi Hedren, Jessica Tandy",
+      "Plot": "A wealthy San Francisco socialite pursues a potential boyfriend to a small Northern California town that slowly takes a turn for the bizarre when birds of all kinds suddenly begin to attack people.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "Nominated for 1 Oscar. 5 wins & 7 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTAxNDA1ODc5MDleQTJeQWpwZ15BbWU4MDg2MDA4OTEx._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.6/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "93%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "90/100"
+        }
+      ],
+      "Metascore": "90",
+      "imdbRating": "7.6",
+      "imdbVotes": "186,822",
+      "imdbID": "tt0056869",
+      "Type": "movie",
+      "DVD": "02 Sep 2003",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "id": 2
+    },
+    {
+      "Title": "Reservoir Dogs",
+      "Year": "1992",
+      "Rated": "R",
+      "Released": "02 Sep 1992",
+      "Runtime": "99 min",
+      "Genre": "Crime, Drama, Thriller",
+      "Director": "Quentin Tarantino",
+      "Writer": "Quentin Tarantino, Roger Avary",
+      "Actors": "Harvey Keitel, Tim Roth, Michael Madsen",
+      "Plot": "When a simple jewelry heist goes horribly wrong, the surviving criminals begin to suspect that one of them is a police informant.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "12 wins & 23 nominations",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZmExNmEwYWItYmQzOS00YjA5LTk2MjktZjEyZDE1Y2QxNjA1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.3/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "90%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "79/100"
+        }
+      ],
+      "Metascore": "79",
+      "imdbRating": "8.3",
+      "imdbVotes": "999,690",
+      "imdbID": "tt0105236",
+      "Type": "movie",
+      "DVD": "18 Mar 2003",
+      "BoxOffice": "$2,832,029",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "id": 3
+    },
+    {
+      "Title": "The Bird with the Crystal Plumage",
+      "Year": "1970",
+      "Rated": "GP",
+      "Released": "12 Jun 1970",
+      "Runtime": "96 min",
+      "Genre": "Horror, Mystery, Thriller",
+      "Director": "Dario Argento",
+      "Writer": "Dario Argento, Fredric Brown",
+      "Actors": "Tony Musante, Suzy Kendall, Enrico Maria Salerno",
+      "Plot": "An American expatriate in Rome witnesses an attempted murder that is connected to an ongoing killing spree in the city, and despite himself and his girlfriend being targeted by the killer, he conducts his own investigation.",
+      "Language": "Italian",
+      "Country": "Italy, West Germany",
+      "Awards": "2 wins & 1 nomination",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZGE1YjY3MDEtMTNkNy00ZGI1LWJlYmUtZTZjNTc5Y2YyZjk2XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.1/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "93%"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "7.1",
+      "imdbVotes": "21,100",
+      "imdbID": "tt0065143",
+      "Type": "movie",
+      "DVD": "29 Oct 2017",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "id": 4
+    },
+    {
+      "Title": "Psycho",
+      "Year": "1960",
+      "Rated": "R",
+      "Released": "08 Sep 1960",
+      "Runtime": "109 min",
+      "Genre": "Horror, Mystery, Thriller",
+      "Director": "Alfred Hitchcock",
+      "Writer": "Joseph Stefano, Robert Bloch",
+      "Actors": "Anthony Perkins, Janet Leigh, Vera Miles",
+      "Plot": "A Phoenix secretary embezzles $40,000 from her employer's client, goes on the run, and checks into a remote motel run by a young man under the domination of his mother.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "Nominated for 4 Oscars. 7 wins & 14 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNTQwNDM1YzItNDAxZC00NWY2LTk0M2UtNDIwNWI5OGUyNWUxXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.5/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "96%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "97/100"
+        }
+      ],
+      "Metascore": "97",
+      "imdbRating": "8.5",
+      "imdbVotes": "659,416",
+      "imdbID": "tt0054215",
+      "Type": "movie",
+      "DVD": "04 Oct 2005",
+      "BoxOffice": "$32,000,000",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "id": 5
     }
   ]
 }
