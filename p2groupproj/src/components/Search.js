@@ -1,9 +1,11 @@
 import React, {useState} from 'react'
 import FilmDetail from './FilmDetail';
 
+
 function Search ({addToWatchlist}) {
     const [filmSearch, setFilmSearch] = useState("");
     const [currentFilm, setCurrentFilm] = useState([]);
+
 
     const handleFilmSearch = (e) => {
         let filmTitle = e.target.value;
@@ -23,6 +25,7 @@ function Search ({addToWatchlist}) {
         .then(res => res.json())
         .then(setCurrentFilm)
         setFilmSearch("")
+
       }
 
     return(
@@ -34,7 +37,7 @@ function Search ({addToWatchlist}) {
             </form>
         </div>
         <div className="search-result">
-        {currentFilm.Genre ? <FilmDetail film={currentFilm} addToWatchlist={addToWatchlist}/> : <p>Search for a film title to get information about the film and add it to your watchlist!</p>}
+        {currentFilm.Genre ? <FilmDetail film={currentFilm} addToWatchlist={addToWatchlist}/> : <h2 className="search-placeholder">Search for a film title to get information about the film and add it to your watchlist!</h2>}
         </div>
         
 

@@ -56,7 +56,7 @@ function App() {
 
   return (
     <div className="App">
-      <header><h1>Catalogue Cinematic: Track Your Films</h1></header>
+      <header><h1 className="sitehead">Catalogue Cinematica: Track Your Films</h1></header>
       <NavBar onChangePage={setPage} />
       <Switch>
         <Route path="/yourfilmlist">
@@ -71,7 +71,7 @@ function App() {
         <Route path="*">
           <h1>404 not found</h1>
         </Route>
-      </Switch>  
+      </Switch>
     </div>
   )
 }

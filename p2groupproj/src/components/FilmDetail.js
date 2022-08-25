@@ -1,9 +1,14 @@
 import React from 'react'
+import { useHistory } from "react-router-dom";
+
 
 function FilmDetail ({film, addToWatchlist}) {
+    const history = useHistory();
 
     const handleWatchlistClick = () => {
         addToWatchlist(film)
+        history.push(`/yourfilmlist`)
+
     }
 
     return(
