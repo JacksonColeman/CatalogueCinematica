@@ -21,10 +21,10 @@ function WatchListItem ({film, removeFromWatchlist}) {
 
     return(
         <div onMouseEnter={toggleIsHovering} onMouseLeave={toggleIsHovering} className="watchlist item">
-            <img className="filmPoster" src={film.Poster} width="300px" height="460px" key="id"></img>
-            <h3>{film.Title}</h3>
+            <img className="filmPoster" src={film.Poster} width="300px" height="460px"></img>
+            <h3 className={isHovering ? "hoveringdetails" : "nothoveringdetails"}>{film.Title}</h3>
             {showDetails ?
-            <div className="watchlist-item-details">
+            <div className={isHovering ? "hoveringdetails" : "nothoveringdetails"}>
                 <p>{film.Year} • Directed by {film.Director} • {film.Runtime}</p>
                 <p>Starring: {film.Actors}</p>
                 <p>Genre: {film.Genre}</p>
@@ -33,7 +33,7 @@ function WatchListItem ({film, removeFromWatchlist}) {
                 null
             }
             {isHovering ?
-            <div className="watchlist-buttons">
+            <div className="hoveringdetails">
                 <button onClick={toggleShowDetails}>{showDetails ? "Hide Details" : "Show Details"}</button>
                 <button onClick={handleRemoveClick}>Remove from Watchlist</button> 
             </div> :
@@ -44,3 +44,48 @@ function WatchListItem ({film, removeFromWatchlist}) {
 }
 
 export default WatchListItem
+
+
+// <div onMouseEnter={toggleIsHovering} onMouseLeave={toggleIsHovering} className="watchlist item">
+//             <img className="filmPoster" src={film.Poster} width="300px" height="460px"></img>
+//             <h3 className={isHovering ? "hoveringdetails" : "nothoveringdetails"}>{film.Title}</h3>
+//             {showDetails ?
+//             <div className={isHovering ? "hoveringdetails" : "nothoveringdetails"}>
+//                 <p>{film.Year} • Directed by {film.Director} • {film.Runtime}</p>
+//                 <p>Starring: {film.Actors}</p>
+//                 <p>Genre: {film.Genre}</p>
+//                 <p>Plot Summary: {film.Plot}</p>
+//             </div> :
+//                 null
+//             }
+//             {isHovering ?
+//             <div className="hoveringdetails">
+//                 <button onClick={toggleShowDetails}>{showDetails ? "Hide Details" : "Show Details"}</button>
+//                 <button onClick={handleRemoveClick}>Remove from Watchlist</button> 
+//             </div> :
+//             null
+//             }
+//         </div>
+
+
+//OLD VERSION
+{/* <div onMouseEnter={toggleIsHovering} onMouseLeave={toggleIsHovering} className="watchlist item">
+<img className="filmPoster" src={film.Poster} width="300px" height="460px" key="id"></img>
+<h3>{film.Title}</h3>
+{showDetails ?
+<div className="watchlist-item-details">
+    <p>{film.Year} • Directed by {film.Director} • {film.Runtime}</p>
+    <p>Starring: {film.Actors}</p>
+    <p>Genre: {film.Genre}</p>
+    <p>Plot Summary: {film.Plot}</p>
+</div> :
+    null
+}
+{isHovering ?
+<div className="watchlist-buttons">
+    <button onClick={toggleShowDetails}>{showDetails ? "Hide Details" : "Show Details"}</button>
+    <button onClick={handleRemoveClick}>Remove from Watchlist</button> 
+</div> :
+null
+}
+</div> */}

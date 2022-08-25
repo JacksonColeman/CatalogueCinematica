@@ -3,65 +3,90 @@
 }
 
 
-
-
-
 /* navbar */
 .navbar {
     background-color: #DAF0F0;
     margin-left: 20%;
-
 }
-
-/* #ffcccb; */
 
 .navbar a {
     display: inline-block;
     margin: 1rem 2rem;
     text-decoration: none;
     font-size: 1.2em;
-    color: rgb(25, 146, 152);
-    border-bottom: 2px solid rgb(25, 146, 152);
+    color: #C374DB;
+    border-bottom: 2px solid #C374DB;
     transition: 0.1s;
     margin-right: 19%;
     flex-wrap: nowrap;
-
-
-  }
+}
 
 .navbar a:hover,
 .navbar a:active {
-    color: tomato;
-    border-bottom: 2px solid tomato;
-  }
+    color: #C374DB;
+    border-bottom: 2px solid #C374DB;
+}
 
 .navbar a.active {
-    background-color: white;
-    color: black;
-  } 
+    background-color: #C374DB;
+    color: white;
+} 
 
-  header {
+header {
     height: 15vh; 
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative; 
+    bottom:0px;
+    top: 0px
  }
 
- /* h1 {
-  
- } */
+.sitehead {
+  Font-family: verdana;
+  font-size: 50px;
+  color: #FFAB00;
+}
+
+/* homepage */
+ .description {
+  float: flex;
+  /* background-color: #C374DB; */
+  justify-content: center;
+  align-items: center;
+  margin-left: -25%;
+  /* color: #FFAB00; */
+  color: #C374DB;
+  /* height: 15vh;  */
+  display: flex;
+  /* bottom: 200px;
+  top: 100px */
+}
+
+.description h2 {
+  float: flex;
+  /* background-color: #C374DB; */
+  justify-content: center;
+  align-items: center;
+  margin-left: 0%;
+  color: #C374DB;
+  padding: 40px;
+  /* margin: 15px; */
+  /* height: 15vh;  */
+  display: flex;
+  /* bottom: 200px;
+  top: 100px */
+
+}
   
 /* homepage images */
-
  .column {
   float: left;
   width: 15%;
   padding: 0px;
   flex-wrap: nowrap;
-
 }
 
-/* Clearfix (clear floats) */
 .row::after {
   content: "";
   clear: both;
@@ -72,20 +97,18 @@
 }
 
 .home-pic {
-  width: 100%;
-  height: auto;
+  width: 165px;
+  height: 255px
+  /* width: 100%;
+  height: auto; */
 }
 
 .homepage {
   margin-left: 20%;
 }
 
-.description {
-  float: flex;
-}
 
-/* all films to list  */
-
+/* ADD FILMS TO LIST  */
 .filmdetail {
   margin-left: -15%;
   
@@ -106,41 +129,112 @@
 .grid-child-1 {
 margin-left: 10%;
 margin-right: 65%
-
 }
 
 .grid-child-2 {
 margin-right: 70%;
 margin-left: -30%
-
 }
 
 .search {
 background-color: #DAF0F0;
-margin-left: 45%;
-/* top:100px; */
-
-
+margin-left: 40%;
 }
 
 form {
   position: relative; 
   top:25px;
-
 }
 
 .search-result {
 background-color: #DAF0F0;
 margin-left: 30%;
 position: relative; 
+margin-right: 05%;
 top:25px;
-/* top:100px; */
-
 }
+
+.search-placeholder {
+  margin-left: 10%;
+  position: relative; 
+  margin-right: 50%;
+  color: #C374DB;
+  padding: 20px;
+  top:25px;  
+  }
+
+
 
 /* stuff for watchlist page */
 .watchlist {
   padding: 20px;
+  margin-left: 5%;
+
+}
+
+.cardlist {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.watchlist.item {
+  display : block;
+  text-align: center;
+  inline-size: 300px;
+}
+
+.watchlist.item:hover, .hoveringdetails, .hoveringdetails p{
+  transform: scale(1.01);
+  background-color: #9ed4d4;
+}
+
+/* button & input */
+button {
+  background-color: #C374DB;
+  border: none;
+  color: white;
+  padding: 0px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input {
+  background-color: white
+}
+
+/* NEW */
+/* stuff for watchlist page */
+/* .watchlist {
+  padding: 20px;
+}
+
+.cardlist {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.watchlist.item {
+  display : block;
+  text-align: center;
+  inline-size: 300px;
+}
+
+.watchlist.item:hover, .hoveringdetails, .hoveringdetails p{
+  transform: scale(1.01);
+  background-color: #9ed4d4;
+} */
+
+
+/* OLD */
+/* .watchlist {
+  padding: 20px;
+  margin-left: 5%;
 }
 
 .cardlist {
@@ -158,4 +252,4 @@ top:25px;
 .watchlist.item:hover{
   transform: scale(1.02);
   background-color: #9ed4d4;
-}
+} */
