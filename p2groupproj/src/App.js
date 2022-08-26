@@ -50,9 +50,6 @@ function App() {
     }))
   }
 
-  // console.log(Home, NavBar, AddFilms)
-  // Search API by Title
-  //https://www.omdbapi.com/?t={name}&apikey=ecf3f0c5
 
   return (
     <div className="App">
