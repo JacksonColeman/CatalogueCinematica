@@ -1,0 +1,153 @@
+* {
+   background-color: #212529;
+   color: white;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+/* homepage images */
+.sitehead{
+  text-align: center;;
+}
+.column {
+  float: left;
+  width: 15%;
+  padding: 0px;
+  flex-wrap: nowrap;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  flex-wrap: nowrap;
+  padding: 0px;
+  margin-right: 25%;
+}
+
+.home-pic {
+  width: 165px;
+  height: 255px
+  /* width: 100%;
+  height: auto; */
+}
+
+.homepage {
+  margin-left: 20%;
+}
+
+.navbar{
+  background-color: #BA0C2F;
+  overflow: hidden;
+  align-content: center;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  background-color: #BA0C2F;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a.home.active{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: #BA0C2F;
+}
+
+.navbar a.active {
+  background-color: white;
+  color: black;
+}
+
+/* stuff for watchlist page */
+
+.cardlist {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.filmPoster {
+  width: 220px;
+  height: 320px;
+}
+
+.watchlist.item {
+  display : block;
+  text-align: center;
+  inline-size: 235px;
+  padding: 10px
+}
+
+.watchlist.item:hover, .hoveringdetails, .hoveringdetails p{
+  transform: scale(1.01);
+  background-color: #BA0C2F;
+}
+
+/* ADD FILMS TO LIST  */
+
+.filmdetail {
+  margin-left: -15%;
+  
+  position: relative; 
+  top:50px;
+
+  /* inline-size: 350px;  */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+
+  /* position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: 10; */
+}
+
+.grid-child-1 {
+margin-left: 10%;
+margin-right: 65%
+}
+
+.grid-child-2 {
+margin-right: 70%;
+margin-left: -30%
+}
+
+.search form input{
+margin-left: 40%;
+background-color: white;
+color: black;
+}
+
+form {
+  position: relative; 
+  top:25px;
+}
+
+.search-result {
+margin-left: 30%;
+position: relative; 
+margin-right: 05%;
+top:25px;
+}
+
+.search-placeholder {
+  margin-left: 10%;
+  position: relative; 
+  margin-right: 50%;
+  color: white;
+  padding: 20px;
+  top:25px;  
+  }

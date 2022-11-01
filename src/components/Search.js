@@ -39,10 +39,9 @@ function Search ({addToWatchlist}) {
         <div className="search-result">
         {currentFilm.Genre ? <FilmDetail film={currentFilm} addToWatchlist={addToWatchlist}/> : <h2 className="search-placeholder">Search for a film title to get information about the film and add it to your watchlist!</h2>}
         </div>
-        
-
       </div>
     )
 }
 
 export default Search
+

@@ -21,11 +21,12 @@ function WatchListItem ({film, removeFromWatchlist}) {
 
     return(
         <div onMouseEnter={toggleIsHovering} onMouseLeave={toggleIsHovering} className="watchlist item">
-            <img className="filmPoster" src={film.Poster} width="300px" height="460px"></img>
+            <img className="filmPoster" src={film.Poster}></img>
             <h3 className={isHovering ? "hoveringdetails" : "nothoveringdetails"}>{film.Title}</h3>
             {showDetails ?
             <div className={isHovering ? "hoveringdetails" : "nothoveringdetails"}>
-                <p>{film.Year} • Directed by {film.Director} • {film.Runtime}</p>
+                <p>{film.Year} • {film.Runtime} </p>
+                <p>Directed by {film.Director}</p>
                 <p>Starring: {film.Actors}</p>
                 <p>Genre: {film.Genre}</p>
                 <p>Plot Summary: {film.Plot}</p>

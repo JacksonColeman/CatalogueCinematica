@@ -53,8 +53,8 @@ function App() {
 
   return (
     <div className="App">
-      <header><h1 className="sitehead">Catalogue Cinematica: Track Your Films</h1></header>
       <NavBar onChangePage={setPage} />
+      <header><h1 className="sitehead">Catalogue Cinematica: Track Your Films</h1></header>
       <Switch>
         <Route path="/yourfilmlist">
           <WatchList watchlist={watchlist} removeFromWatchlist={removeFromWatchlist}/>

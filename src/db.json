@@ -1,0 +1,287 @@
+{
+  "films": [
+    {
+      "Title": "Tár",
+      "Year": "2022",
+      "Rated": "R",
+      "Released": "28 Oct 2022",
+      "Runtime": "158 min",
+      "Genre": "Drama, Music",
+      "Director": "Todd Field",
+      "Writer": "Todd Field",
+      "Actors": "Cate Blanchett, Noémie Merlant, Nina Hoss",
+      "Plot": "Set in the international world of Western classical music, the film centers on Lydia Tár, widely considered one of the greatest living composer-conductors and first-ever female music director of a major German orchestra.",
+      "Language": "English, German, Filipino, French",
+      "Country": "United States",
+      "Awards": "2 wins & 8 nominations",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BM2I0ZDcyYzItMGEyNi00YWVhLTlmNTQtOWVlYjE1ZGVhNWM0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.2/10"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "91/100"
+        }
+      ],
+      "Metascore": "91",
+      "imdbRating": "8.2",
+      "imdbVotes": "1,993",
+      "imdbID": "tt14444726",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$1,467,823",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "id": 1
+    },
+    {
+      "Title": "Decision to Leave",
+      "Year": "2022",
+      "Rated": "N/A",
+      "Released": "14 Oct 2022",
+      "Runtime": "138 min",
+      "Genre": "Crime, Drama, Mystery",
+      "Director": "Park Chan-wook",
+      "Writer": "Park Chan-wook, Seo-kyeong Jeong",
+      "Actors": "Tang Wei, Go Kyung-Pyo, Park Hae-il",
+      "Plot": "A detective investigating a man's death in the mountains meets the dead man's mysterious wife in the course of his dogged sleuthing.",
+      "Language": "Korean, Chinese",
+      "Country": "South Korea",
+      "Awards": "1 win & 4 nominations",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOTEzYTljMTMtODU0ZC00ZWI0LTlhOGEtYjE3MjI3NTI1YmNhXkEyXkFqcGdeQXVyNjgxODk1MTM@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.3/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "94%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "83/100"
+        }
+      ],
+      "Metascore": "83",
+      "imdbRating": "7.3",
+      "imdbVotes": "9,825",
+      "imdbID": "tt12477480",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "id": 2
+    },
+    {
+      "Title": "Triangle of Sadness",
+      "Year": "2022",
+      "Rated": "R",
+      "Released": "28 Sep 2022",
+      "Runtime": "150 min",
+      "Genre": "Comedy, Drama",
+      "Director": "Ruben Östlund",
+      "Writer": "Ruben Östlund",
+      "Actors": "Thobias Thorwid, Harris Dickinson, Charlbi Dean",
+      "Plot": "A cruise for the super-rich sinks thus leaving survivors, including a fashion model celebrity couple, trapped on an island.",
+      "Language": "English",
+      "Country": "Sweden, France, United Kingdom, Germany, Turkey, Greece",
+      "Awards": "3 wins & 2 nominations",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNDRiZjc0ZDMtMjhlYi00ZjAzLTg0MDQtZDI2NGEyYTBlN2M2XkEyXkFqcGdeQXVyMTA2MDU0NjM5._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.9/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "73%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "62/100"
+        }
+      ],
+      "Metascore": "62",
+      "imdbRating": "7.9",
+      "imdbVotes": "5,437",
+      "imdbID": "tt7322224",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$320,475",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "id": 3
+    },
+    {
+      "Title": "Harry Potter and the Goblet of Fire",
+      "Year": "2005",
+      "Rated": "PG-13",
+      "Released": "18 Nov 2005",
+      "Runtime": "157 min",
+      "Genre": "Adventure, Family, Fantasy",
+      "Director": "Mike Newell",
+      "Writer": "Steve Kloves, J.K. Rowling",
+      "Actors": "Daniel Radcliffe, Emma Watson, Rupert Grint",
+      "Plot": "Harry Potter finds himself competing in a hazardous tournament between rival schools of magic, but he is distracted by recurring nightmares.",
+      "Language": "English, French, Latin",
+      "Country": "United Kingdom, United States",
+      "Awards": "Nominated for 1 Oscar. 13 wins & 44 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTI1NDMyMjExOF5BMl5BanBnXkFtZTcwOTc4MjQzMQ@@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.7/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "88%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "81/100"
+        }
+      ],
+      "Metascore": "81",
+      "imdbRating": "7.7",
+      "imdbVotes": "622,265",
+      "imdbID": "tt0330373",
+      "Type": "movie",
+      "DVD": "07 Mar 2006",
+      "BoxOffice": "$290,469,928",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "id": 4
+    },
+    {
+      "Title": "The Avengers",
+      "Year": "2012",
+      "Rated": "PG-13",
+      "Released": "04 May 2012",
+      "Runtime": "143 min",
+      "Genre": "Action, Adventure, Sci-Fi",
+      "Director": "Joss Whedon",
+      "Writer": "Joss Whedon, Zak Penn",
+      "Actors": "Robert Downey Jr., Chris Evans, Scarlett Johansson",
+      "Plot": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
+      "Language": "English, Russian, Hindi",
+      "Country": "United States",
+      "Awards": "Nominated for 1 Oscar. 38 wins & 80 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.0/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "91%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "69/100"
+        }
+      ],
+      "Metascore": "69",
+      "imdbRating": "8.0",
+      "imdbVotes": "1,382,964",
+      "imdbID": "tt0848228",
+      "Type": "movie",
+      "DVD": "25 Sep 2012",
+      "BoxOffice": "$623,357,910",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "id": 5
+    },
+    {
+      "Title": "Pulp Fiction",
+      "Year": "1994",
+      "Rated": "R",
+      "Released": "14 Oct 1994",
+      "Runtime": "154 min",
+      "Genre": "Crime, Drama",
+      "Director": "Quentin Tarantino",
+      "Writer": "Quentin Tarantino, Roger Avary",
+      "Actors": "John Travolta, Uma Thurman, Samuel L. Jackson",
+      "Plot": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      "Language": "English, Spanish, French",
+      "Country": "United States",
+      "Awards": "Won 1 Oscar. 70 wins & 75 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.9/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "92%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "94/100"
+        }
+      ],
+      "Metascore": "94",
+      "imdbRating": "8.9",
+      "imdbVotes": "2,032,272",
+      "imdbID": "tt0110912",
+      "Type": "movie",
+      "DVD": "20 Aug 2002",
+      "BoxOffice": "$107,928,762",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "id": 6
+    },
+    {
+      "Title": "The Wizard of Oz",
+      "Year": "1939",
+      "Rated": "G",
+      "Released": "25 Aug 1939",
+      "Runtime": "102 min",
+      "Genre": "Adventure, Family, Fantasy",
+      "Director": "Victor Fleming, George Cukor, Mervyn LeRoy",
+      "Writer": "Noel Langley, Florence Ryerson, Edgar Allan Woolf",
+      "Actors": "Judy Garland, Frank Morgan, Ray Bolger",
+      "Plot": "Young Dorothy Gale and her dog Toto are swept away by a tornado from their Kansas farm to the magical Land of Oz, and embark on a quest with three new friends to see the Wizard, who can return her to her home and fulfill the other...",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "Won 2 Oscars. 14 wins & 16 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNjUyMTc4MDExMV5BMl5BanBnXkFtZTgwNDg0NDIwMjE@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.1/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "98%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "92/100"
+        }
+      ],
+      "Metascore": "92",
+      "imdbRating": "8.1",
+      "imdbVotes": "398,263",
+      "imdbID": "tt0032138",
+      "Type": "movie",
+      "DVD": "12 Aug 2003",
+      "BoxOffice": "$24,668,669",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True",
+      "id": 7
+    }
+  ]
+}
